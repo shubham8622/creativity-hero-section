@@ -1,0 +1,12 @@
+Data types(Number, string, boolean, undefined, null)
+variables
+conditions
+Math functions
+loop on an array
+loops(for,while,dowhile,forin,forof)
+switch
+function
+dates
+objects
+Higher order functions
+map filter reduce every sort

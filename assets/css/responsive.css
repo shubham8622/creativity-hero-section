@@ -1,0 +1,107 @@
+@media only screen and (max-width:1250px){
+    :root{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1160px){
+    :root{
+        font-size: 13px;
+    }
+    .hero-content{
+        gap: 5rem;
+    }
+}
+
+@media only screen and (max-width:1010px){
+    :root{
+        font-size: 11px;
+    }
+    .best-grahics-content p {
+        font-size: 1.5rem;
+    }
+    img.group {
+        max-height: 17rem;
+    }
+    .best-graphics ul {
+        font-size: 1.5rem;
+    }
+    nav ul li a{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width:870px){
+    :root{
+        font-size: 11px;
+    }
+    nav{
+        display: none;
+    }
+    .bars{
+        display: block;
+        font-size: 2rem;
+        color: #000000;
+    }
+    .bg-girl{
+        display: none;
+    }
+    .hero-heading {
+        justify-content: center;
+    }
+    .hero-heading h1{
+        font-size: 10rem;
+    }
+    ul.links li {
+        font-size: 2.5rem;
+    }
+    .package {
+        align-self: center;
+    }
+    .package a {
+        padding: 1.5rem;
+        font-size: 1.3rem;
+    }
+    .hero-content {
+        padding: 6rem 0 0 0;
+    }
+    .hero-creativity{
+        gap: 5rem;
+    }
+    
+}
+
+@media only screen and (max-width:570px){
+    :root{
+        font-size: 8px;
+    }
+    .best-graphics ul {
+        font-size: 2rem;
+    }
+    .best-grahics-content p {
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width:425px){
+.best-graphics {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.down-arrow {
+    display: none;
+}
+.best-grahics-content p {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.best-grahics-content {
+    max-width: 50rem;
+    align-items: center;
+}
+.hero-heading h1 {
+    font-size: 7rem;
+}
+h1 span{
+    margin-left: 4rem;
+}
+}
